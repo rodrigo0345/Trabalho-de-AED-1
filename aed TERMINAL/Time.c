@@ -240,19 +240,19 @@ int MonthNumOfDays(int month, int year)
 			return 31;
 		break;
 	case August:
-			return 30;
+			return 31;
 		break;
 	case September:
-			return 31;
+			return 30;
 		break;
 	case October:
-			return 30;
-		break;
-	case November:
 			return 31;
 		break;
-	case December:
+	case November:
 			return 30;
+		break;
+	case December:
+			return 31;
 		break;
 	default:
 		return error;

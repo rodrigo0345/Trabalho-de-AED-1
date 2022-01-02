@@ -172,31 +172,31 @@ myBool CheckMonthDays(int Day, int Month, int year)
 		}
 		break;
 	case August:
-		if (Day <= 30)
+		if (Day <= 31)
 		{
 			return accepted;
 		}
 		break;
 	case September:
-		if (Day <= 31)
+		if (Day <= 30)
 		{
 			return accepted;
 		}
 		break;
 	case October:
-		if (Day <= 30)
-		{
-			return accepted;
-		}
-		break;
-	case November:
 		if (Day <= 31)
 		{
 			return accepted;
 		}
 		break;
-	case December:
+	case November:
 		if (Day <= 30)
+		{
+			return accepted;
+		}
+		break;
+	case December:
+		if (Day <= 31)
 		{
 			return accepted;
 		}

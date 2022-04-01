@@ -1,4 +1,4 @@
-# Trabalho-de-aed-TERMINAL
+# Trabalho-de-AED-1
 Aplicação de gestão de um estádio de futebol (trabalho do 1º ano de universidade)
 ![image](https://user-images.githubusercontent.com/48099106/161279081-7c9cf79a-81dc-4f41-bf92-a3000ec80f7f.png)
 ![image](https://user-images.githubusercontent.com/48099106/161279172-7b8cb7ee-45bd-444d-bfee-42cd10d1a866.png)
